@@ -11,14 +11,12 @@ package org.kun.java.duotai;
  *
  */
 
-public class DuoTaiDemo
-{
-    
-    public static void main(String[] args)
-    {
+public class DuoTaiDemo {
+
+    public static void main(String[] args) {
         Master master = new Master();
         master.feed(new Dog(), new Bone());
         master.feed(new Cat(), new Fish());
     }
-    
+
 }

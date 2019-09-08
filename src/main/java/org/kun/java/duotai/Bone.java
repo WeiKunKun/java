@@ -1,12 +1,10 @@
 package org.kun.java.duotai;
 
-public class Bone implements Food
-{
-    
+public class Bone implements Food {
+
     @Override
-    public void showName()
-    {
+    public void showName() {
         System.out.println("我是食物骨头");
     }
-    
+
 }
